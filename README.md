@@ -1,3 +1,21 @@
+
+ # Short Intro about Project
+Papeer — Agentic Research Paper Assistant
+
+Papeer is a Retrieval-Augmented Generation (RAG) application that lets researchers and students upload, explore, 
+and verify academic papers through natural conversation. Built on a multi-node LangGraph workflow, it intelligently 
+routes queries — answering directly from paper content, searching the web for current developments, or verifying 
+whether a claim has been superseded by newer research.
+
+The system uses session-isolated Qdrant vector collections, cached embeddings for cost efficiency, and a 
+self-correcting retrieval loop (up to 3 query rewrites) to ground every answer in retrieved context. An automated 
+DeepEval evaluation pipeline scores responses across 5 RAG quality metrics, and the entire app is containerized 
+with Docker for reproducible deployment.
+
+**Tech stack:** LangGraph · LangChain · Qdrant · Tavily · DeepEval · Streamlit · Docker · OpenAI GPT
+
+# Whole Descriptions for this project
+
 # Papeer — Research Paper Assistant
 
 A conversational AI assistant for students and researchers to upload, explore, and verify academic papers through natural language chat.
